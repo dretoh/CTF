@@ -8,4 +8,3 @@ Solved : Compound Interest (Web), RSA Signatur3(Crypto), before...(Rev), lucky s
 
 ![res](./res/result1.png)
 ![res](./res/result2.png)
-![res](./res/result3.png)
