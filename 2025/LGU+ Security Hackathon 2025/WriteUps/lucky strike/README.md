@@ -1,13 +1,16 @@
-- Mitigation
-    Arch:       amd64-64-little
-    RELRO:      Partial RELRO
-    Stack:      Canary found
-    NX:         NX enabled
-    PIE:        No PIE (0x400000)
-    SHSTK:      Enabled
-    IBT:        Enabled
+# Lucky Strike
+- Pwn
+
+## [1] Mitigation
+  Arch:       amd64-64-little
+  RELRO:      Partial RELRO
+  Stack:      Canary found
+  NX:         NX enabled
+  PIE:        No PIE (0x400000)
+  SHSTK:      Enabled
+  IBT:        Enabled
   
-- Flow
+## [2] Flow
 Unlike menu options 1, 2, and 3, selecting option 4100 enables AAR.
 To trigger this, I first needed to know the rand value and win the game to accumulate enough points.
 Fortunately, leveraging a format string %s, I was able to leak the rand value.
