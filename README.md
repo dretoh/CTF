@@ -1,4 +1,4 @@
-## Dretoh's Exploit Notes: My Challenge Archive
+## My Challenge Archive
 
 A personal archive of write-ups and notes from CTFs and challenges
 
